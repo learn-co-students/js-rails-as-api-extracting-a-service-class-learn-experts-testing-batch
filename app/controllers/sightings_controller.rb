@@ -9,7 +9,7 @@ class SightingsController < ApplicationController
     render json: SightingSerializer.new(sighting).to_serialized_json
   end
 end
-
+###
 # class SightingsController < ApplicationController
 #   def index
 #     sightings = Sighting.all
